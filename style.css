@@ -1,0 +1,14 @@
+.box{
+    transition: ease 5s , transform 5s ;
+    width: 200px;
+    height: 200px;
+    border: 3px solid cadetblue;
+}
+.box:hover{
+    width: 500px;
+    height: 300px;
+    background-color: tomato;
+    transform: rotate(180deg);
+    text-align:center ;
+    
+}
